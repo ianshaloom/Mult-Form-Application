@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B054D999-A5F4-41DE-8220-84442D482918}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Assignment.My.MyApplication</StartupObject>
+    <RootNamespace>Assignment</RootNamespace>
+    <AssemblyName>Assignment</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Theemain\Desktop\Theemain\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Assignment.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Assignment.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mediaplayer.Designer.vb">
+      <DependentUpon>mediaplayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mediaplayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="areaperimeter.Designer.vb">
+      <DependentUpon>areaperimeter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="areaperimeter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Member.Designer.vb">
+      <DependentUpon>Add Member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Member.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meaning of Life.Designer.vb">
+      <DependentUpon>Meaning of Life.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Meaning of Life.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiz.Designer.vb">
+      <DependentUpon>Quiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grade Results.Designer.vb">
+      <DependentUpon>Grade Results.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grade Results.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datime.Designer.vb">
+      <DependentUpon>datime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="datime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainMENU.designer.vb">
+      <DependentUpon>mainMENU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mainMENU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payslip.Designer.vb">
+      <DependentUpon>payslip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="payslip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="squareandroot.Designer.vb">
+      <DependentUpon>squareandroot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="squareandroot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="simplecalc.Designer.vb">
+      <DependentUpon>simplecalc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="simplecalc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="members.Designer.vb">
+      <DependentUpon>members.vb</DependentUpon>
+    </Compile>
+    <Compile Include="members.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="guessgame.Designer.vb">
+      <DependentUpon>guessgame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="guessgame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="mediaplayer.resx">
+      <DependentUpon>mediaplayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="areaperimeter.resx">
+      <DependentUpon>areaperimeter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Member.resx">
+      <DependentUpon>Add Member.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meaning of Life.resx">
+      <DependentUpon>Meaning of Life.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz.resx">
+      <DependentUpon>Quiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grade Results.resx">
+      <DependentUpon>Grade Results.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datime.resx">
+      <DependentUpon>datime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainMENU.resx">
+      <DependentUpon>mainMENU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payslip.resx">
+      <DependentUpon>payslip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="squareandroot.resx">
+      <DependentUpon>squareandroot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="simplecalc.resx">
+      <DependentUpon>simplecalc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="members.resx">
+      <DependentUpon>members.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guessgame.resx">
+      <DependentUpon>guessgame.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\addmember.datasource" />
+    <None Include="My Project\DataSources\areaperimeter.datasource" />
+    <None Include="My Project\DataSources\Assignment.My.MyApplication.datasource" />
+    <None Include="My Project\DataSources\Assignment.My.MySettings.datasource" />
+    <None Include="My Project\DataSources\dataview.datasource" />
+    <None Include="My Project\DataSources\Form2.datasource" />
+    <None Include="My Project\DataSources\guessgame.datasource" />
+    <None Include="My Project\DataSources\login.datasource" />
+    <None Include="My Project\DataSources\mainMENU.datasource" />
+    <None Include="My Project\DataSources\members.datasource" />
+    <None Include="My Project\DataSources\simplecalc.datasource" />
+    <None Include="My Project\DataSources\squareandroot.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close-Window-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize-Window-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maximize-Window-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-Google-Drive-Forms-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ipod-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-female-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Groups-Meeting-Dark-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentation-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idea-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watch-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conversation-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\briefcase-bag-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color-catalog-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\office-school-rulers-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school-book-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Science-Divide-2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Science-Multiply-2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Science-Plus2-Math-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Science-Minus2-Math-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Science-Equal-Sign-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Games-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Science-Square-Root-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libreoffice-math-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows-Media-Player-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculator-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-libreoffice-math-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previous-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast-forward-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast-backward-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop-2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
